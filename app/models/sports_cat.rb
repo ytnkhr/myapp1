@@ -1,0 +1,2 @@
+class SportsCat < ApplicationRecord
+end

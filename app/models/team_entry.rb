@@ -1,0 +1,2 @@
+class TeamEntry < ApplicationRecord
+end
