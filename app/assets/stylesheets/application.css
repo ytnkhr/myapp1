@@ -12,14 +12,19 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
+/* app/assets/stylesheets/application.scss */
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 .main-page{
   margin-top:50px;
 }
  
 .header-image{
-  /*background-image: url(/assets/header12.jpg);*/
-  height:400px;
+  background-image: url(/assets/banner_top.png);
+  height:300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
